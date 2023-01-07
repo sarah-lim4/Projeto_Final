@@ -1,0 +1,27 @@
+.nome_produto{
+    text-align: center;
+    font-weight: bold;
+}
+.btn-sacola{
+    background-color: rgb(210, 192, 135);
+    
+}
+.outros_produtos{
+    text-align: center;
+}
+.maisprodutos{
+    border: 1px;
+    border-color: black;
+    border-style: double;
+}
+.img_produtos{
+    margin-top: 40px;
+}
+.imagem_1{
+    height: 200px;
+    width: 250px;
+    border: 1px;
+    border-color: black;
+    border-style: double;
+    margin-bottom: 35px;
+}
