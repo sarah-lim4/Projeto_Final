@@ -11,7 +11,7 @@
 }
 .maisprodutos{
     border: 1px;
-    border-color: black;
+    border-color: rgb(216, 185, 90);
     border-style: double;
 }
 .img_produtos{
@@ -20,8 +20,11 @@
 .imagem_1{
     height: 200px;
     width: 250px;
-    border: 1px;
+    border: 0,5px;
     border-color: black;
     border-style: double;
     margin-bottom: 35px;
+}
+.img_ilustrativa{
+    color: rgb(122, 122, 122);
 }
