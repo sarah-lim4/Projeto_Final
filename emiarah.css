@@ -1,0 +1,33 @@
+/* Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Parisienne&family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --header-height: 8rem;
+
+    /*--------------------Cores----------------------*/
+    --cor-prim: #A6370F;
+    --cor-prim-alt: #c27958;
+    --cor-sec: #e0d4ca;
+    --cor-sec-alt: #EEEEEE;
+    --preto: #0f0f0f;
+    --branco: #ffffff; 
+
+      /*--------------Tipografia-----------------*/
+      --fonte-body: "Raleway", sans-serif;
+      --fonte-title: "Anton", sans-serif;
+      --fonte-cursiva: "Parisienne", cursive;
+      --tam-h1: 2.25rem; 
+      --tam-h2: 1.5rem; 
+      --tam-h3: 1.25rem; 
+      --tam-fonte-normal: 1rem; 
+      --tam-fonte-peq: 0.813rem;
+      --tam-fonte-grande: 3rem; 
+
+    /*---------------Fonte-------------------*/
+    --fonte-light: 300;
+    --fonet-regular: 400;
+    --fonte-medium: 500;
+    --fonte-semibold: 600;
+    --fonte-bold: 700;
+    --fonte-extrabold: 800;
+}
