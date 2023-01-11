@@ -18,7 +18,6 @@
             width: 100%;
             height: 60px;
             font-size: 12px;
-            background-color: white;
             margin-left:10px ;
             margin-right: 10px;
             
@@ -27,6 +26,7 @@
         ul, li{
             letter-spacing: 1px;
             padding: 20px;
+            
            
         }
 
@@ -43,6 +43,16 @@
             background-position: center;
             background-size: cover;
         }
+
+       /*Cartões*/
+
+       .card{
+        margin-top: 150px;
+        margin-left: 20px;
+        display: inline-block;
+        font-family: 'Times New Roman', Times, serif;
+       }
+        
         
 
 
@@ -81,7 +91,7 @@
                     <a class="nav-link active" href="#"><img src="imgs/icons8-usuário-24.png" alt="whatsapp">Perfil</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#"><img src="imgs/icons8-carrinho-de-compras-24.png" alt="whatsapp">Sacola</a>
+                    <a class="nav-link active" href="#"><img src="imgs/icons8-shopping-bags-24.png" alt="whatsapp">Sacola</a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -92,24 +102,59 @@
             </div>
           </nav>
     </header>
+    <!--Cartões-->
 
-    <!--Carrosel-->
-    <main>
-        <div class="container-fluid">
-            <div id="mainSlider" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
-                    <li data-target="#mainSlider" data-slide-to="1"></li>
-                    <li data-target="#mainSlider" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        
-                    </div>
+    <div class='row'>
+        <div class='col-3'>
+            <div class="card" style="width: 18rem;">
+                <a href="detalhes_produtos4.html"><img src="imgs/Anel-Ouro-Amarelo-Diamantes-e-Esmeralda.webp" class="card-img-top" alt="Anel"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Inovação</h5>
+                  <p class="card-text">
+                    A Emiarah visa equilibrar a preservação do meio ambiente e o que ele pode oferecer em consonância 
+                    com a qualidade de vida da população. Por esse motivo todas as nossas joias são sustentáveis.
+                  </p>
                 </div>
-            </div>
+              </div>
         </div>
-    </main>
+        <div class='col-3'>
+            <div class="card" style="width: 18rem;">
+                <a href="detalhes_produto8.html"><img src="imgs/brinco_ouro.webp" class="card-img-top" alt="Brinco"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Ouro ético</h5>
+                  <p class="card-text">Nossa matéria-prima provem de exploração justa. O ouro ético é vindo da mineração responsável, que não traz males 
+                    nem aos trabalhadores envolvidos na mineração, nem à comunidade, nem ao meio ambiente.</p>
+                </div>
+              </div>
+        </div>
+   
+        <div class='col-3'>
+            <div class="card" style="width: 18rem;">
+                <a href="detalhes_produto2.html"><img src="imgs/colar_perolas.webp" class="card-img-top" alt="Colar"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Metais reciclados</h5>
+                  <p class="card-text">A loja vem com a proposta da utilização de metais reciclados. Assim, 
+                    eles são ressignificados em novas joias maravilhosas, que deslumbram seus espectadores e de maneira a ajudar o meio ambiente.</p>
+                </div>
+              </div>
+   
+        </div>
+        <div class='col-3'>
+            <div class="card" style="width: 18rem;">
+                <a href="detalhes_produto7.html"></a><img src="imgs/Pulseira-Coracao.webp" class="card-img-top" alt="Pulseira"></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    <h5 class="card-title">Joias sustentáveis</h5>
+                     A Emiarah está sempre preocupada com a procedência de seus produtos. Oferencendo para a sociedade
+                    peças finas e elegantes com o selo de sustentabilidade.
+                  </p>
+                </div>
+              </div>
+   
+        </div>
+   
+   </div>
+      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
     </script>
 
