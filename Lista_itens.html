@@ -26,15 +26,12 @@
 
         ul, li{
             letter-spacing: 1px;
-            padding: 20px;
-            
-           
+            padding: 20px;  
         }
 
         .form-control, .btn{
             font-size: 15px;
-            color:black
-            
+            color:black  
         }
         .navbar-brand{
             margin-left: 10px;
@@ -44,9 +41,17 @@
             background-position: center;
             background-size: cover;
         }
+        .card{
+        margin-top: 150px;
+        margin-left: 20px;
+        display: inline-block;
+        font-family: 'Times New Roman', Times, serif;
+       }
+
     </style>
 </head>
 <body>
+    <header>
      <!-- Barra de navegação-->
      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
@@ -87,5 +92,50 @@
           </div>
         </div>
       </nav>
+    </header>
+
+    <!--Cards-->
+    <div class='row'>
+        <div class='col-3'>
+            <div class="card" style="width: 18rem;">
+                <a href="detalhes_produto.html"><img src="imgs/Pingente-Prata.webp" class="card-img-top" alt="Anel"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Pingente de prata e topázio</h5>
+                  <p class="card-text">R$ 350,00</p>
+                </div>
+              </div>
+        </div>
+        <div class='col-3'>
+            <div class="card" style="width: 18rem;">
+                <a href="detalhes_produto2.html"><img src="imgs/colar_perolas.webp" class="card-img-top" alt="Brinco"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Colar de ouro com pérolas</h5>
+                  <p class="card-text">R$ 3.500,00</p>
+                </div>
+              </div>
+        </div>
+   
+        <div class='col-3'>
+            <div class="card" style="width: 18rem;">
+                <a href="detalhes_produto3.html"><img src="imgs/Anel_coracao.webp" class="card-img-top" alt="Colar"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Anel coração</h5>
+                  <p class="card-text">R$ 2.490,00</p>
+                </div>
+              </div>
+   
+        </div>
+        <div class='col-3'>
+            <div class="card" style="width: 18rem;">
+                <a href="detalhes_produtos4.html"><img src="imgs/Anel-Ouro-Amarelo-Diamantes-e-Esmeralda.webp" class="card-img-top" alt="Colar"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Anel ouro com esmeralda</h5>
+                  <p class="card-text">R$ 3.150,00</p>
+                </div>
+              </div>
+
+              </div>
+        </div>
+   </div>
 </body>
 </html>
