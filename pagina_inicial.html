@@ -11,7 +11,7 @@
             margin: 0;
         }
         body{
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-family: 'Raleway';
         }
 
         .container-fluid{
@@ -47,13 +47,43 @@
        /*Cartões*/
 
        .card{
-        margin-top: 150px;
+        margin-top: 50px;
         margin-left: 20px;
         display: inline-block;
         font-family: 'Times New Roman', Times, serif;
        }
-        
-        
+      .navegacao{
+        background-color:rgb(225, 225, 225);
+        height: 100px;
+      }
+    
+      .joia{
+      
+        margin-right: 70px;
+        color:  rgb(181, 162, 113);
+        font-size: 15px;
+      }
+      .carrossel{
+      width: 70%;
+      margin: auto;
+      }
+      .logo{
+        margin-top: 7px;
+        width: 150px;
+      
+      }
+      .home{
+        font-size: 20px;
+        margin-left: 850px;
+      }
+      .nv{
+        margin-top: 120px;
+        margin-bottom: 50px;
+      }
+      .sobre_emiarah{
+        text-align: center;
+        margin-top: 220px;
+      }
 
 
 
@@ -62,10 +92,10 @@
   <body>
     <header>
         <!--Principal Nav-->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <nav class="navbar navbar-expand-lg  fixed-top navegacao">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
-                <img src="imgs/Logo_Emiarah-removebg-preview.png" alt="Logo da Emiarah" width=80px">
+                <img class="logo " src="imgs/Logo_Emiarah-removebg-preview.png" alt="Logo da Emiarah">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -73,38 +103,70 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link active home" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">Nossos Produtos</a>
+                    <a class="nav-link active" href="#"><img src="imgs/icons8-usuário-24.png" alt="whatsapp"></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">Contato</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Login</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#"><img src="imgs/icons8-whatsapp-24.png" alt="whatsapp">Compre pelo WhatsApp</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#"><img src="imgs/icons8-usuário-24.png" alt="whatsapp">Perfil</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#"><img src="imgs/icons8-shopping-bags-24.png" alt="whatsapp">Sacola</a>
+                    <a class="nav-link active" href="#"><img src="imgs/icons8-shopping-bags-24.png" alt="whatsapp"></a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
-                  <button class="btn btn-outline-dark" type="submit">Procurar</button>
+                  <button class="btn btn-outline-dark btn" type="submit">Procurar</button>
                 </form>
               </div>
             </div>
           </nav>
     </header>
+    <!--Outra barra-->
+    <nav class="navbar navbar-expand-lg top navegacao2">
+      <div class="container-fluid nv">
+     
+        <div class="container text-center">
+          <div class="row">
+            <div class="col c">
+              <a href="" target="_blank" class="joia">BRINCOS</a>  
+              <a href="" target="_blank" class="joia">COLARES</a>
+              <a href="" target="_blank" class="joia">PULSEIRAS</a>
+              <a href="" target="_blank" class="joia">ANEIS</a>
+            </div>
+          </div>
+        </div>
+        </div>
+    </nav>
+</header>
+<!--carrossel-->
+<div class="container fluid">
+<div id="carouselExampleInterval" class="carousel slide carrossel" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="imgs/imagem_carrossel1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="imgs/imagem_carrossel2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/imagem_carrossel5.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/imagem_carrossel6.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
     <!--Cartões-->
 
-    <div class='row'>
+<h2 class="sobre_emiarah">SOBRE A EMIARAH</h2>
+    <div class='row container-fluid '>
         <div class='col-3'>
             <div class="card" style="width: 18rem;">
                 <a href="detalhes_produtos4.html"><img src="imgs/Anel-Ouro-Amarelo-Diamantes-e-Esmeralda.webp" class="card-img-top" alt="Anel"></a>
@@ -154,7 +216,7 @@
         </div>
    
    </div>
-      
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
     </script>
 
