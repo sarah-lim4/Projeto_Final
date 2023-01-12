@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-fluid{
+  width: 100%;
+  height: 60px;
+  font-size: 12px;
+  margin-left:10px ;
+  margin-right: 10px;
+  
+}
+
+ul, li{
+  letter-spacing: 1px;
+  padding: 20px;
+  
+ 
+}
+
+.form-control, .btn{
+  font-size: 15px;
+  color:black
+  
+}
+.navbar-brand{
+  margin-left: 10px;
+}
+
+img{
+  background-position: center;
+  background-size: cover;
+}
+
+/*Cartões*/
+
+.card{
+margin-top: 150px;
+margin-left: 20px;
+display: inline-block;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
