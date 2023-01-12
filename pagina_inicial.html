@@ -17,20 +17,10 @@
             font-family: 'Raleway';
         }
 
-        .container-fluid{
-            width: 100%;
-            height: 60px;
-            font-size: 12px;
-            margin-left:10px ;
-            margin-right: 10px;
-            
-        }
-
         ul, li{
             letter-spacing: 1px;
             padding: 20px;
             
-           
         }
 
         .form-control, .btn{
@@ -46,6 +36,49 @@
             background-position: center;
             background-size: cover;
         }
+        .navegacao{
+        background-color:rgb(225, 225, 225);
+        height: 85px;
+      }
+    
+      .joia{
+        margin-right: 70px;
+        color:  rgb(181, 162, 113);
+        font-size: 15px;
+        text-decoration: none;
+      }
+
+      .carrossel{
+      width: 70%;
+      margin: auto;
+      }
+
+      .logo{
+        width: 85px;
+      }
+
+      .home{
+        font-size: 15px;
+        margin-left: 800px;
+      }
+
+      .nv{
+        margin-top: 100px;
+        margin-bottom: 60px;
+      }
+      h4{
+        text-transform: uppercase;
+        color:black ;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 30px;
+
+      }
+      .sobre_emiarah{
+        text-align: center;
+        margin-top: 100px;
+        color: black;
+      }
 
        /*Cartões*/
 
@@ -55,38 +88,7 @@
         display: inline-block;
         font-family: 'Times New Roman', Times, serif;
        }
-      .navegacao{
-        background-color:rgb(225, 225, 225);
-        height: 100px;
-      }
-    
-      .joia{
-      
-        margin-right: 70px;
-        color:  rgb(181, 162, 113);
-        font-size: 15px;
-      }
-      .carrossel{
-      width: 70%;
-      margin: auto;
-      }
-      .logo{
-        margin-top: 7px;
-        width: 150px;
-      
-      }
-      .home{
-        font-size: 20px;
-        margin-left: 850px;
-      }
-      .nv{
-        margin-top: 120px;
-        margin-bottom: 50px;
-      }
-      .sobre_emiarah{
-        text-align: center;
-        margin-top: 220px;
-      }
+
 
 
     </style>
@@ -94,10 +96,10 @@
   <body>
     <header>
         <!--Principal Nav-->
-        <nav class="navbar navbar-expand-lg  fixed-top navegacao">
+        <nav class="navbar navbar-expand-lg d-inline-block align-text-top fixed-top navegacao">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
-                <img class="logo " src="imgs/Logo_Emiarah-removebg-preview.png" alt="Logo da Emiarah">
+                <img class="logo" src="imgs/Logo_Emiarah-removebg-preview.png" alt="Logo da Emiarah">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -108,10 +110,10 @@
                     <a class="nav-link active home" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#"><img src="imgs/icons8-usuário-24.png" alt="whatsapp"></a>
+                    <a class="nav-link active" href="#"><img src="imgs/icons8-usuário-24.png" alt="perfil"></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="#"><img src="imgs/icons8-shopping-bags-24.png" alt="whatsapp"></a>
+                    <a class="nav-link active" href="#"><img src="imgs/icons8-shopping-bags-24.png" alt="sacola"></a>
                   </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -125,8 +127,8 @@
     <!--Outra barra-->
     <nav class="navbar navbar-expand-lg top navegacao2">
       <div class="container-fluid nv">
-     
         <div class="container text-center">
+          <h4>Navegue por categoria</h4>
           <div class="row">
             <div class="col c">
               <a href="" target="_blank" class="joia">BRINCOS</a>  
@@ -168,8 +170,8 @@
     <!--Cartões-->
 
 <h2 class="sobre_emiarah">SOBRE A EMIARAH</h2>
-    <div class='row container-fluid '>
-        <div class='col-3'>
+<div class='row'>
+        <div class='col-md-6 col-xl-3'>
             <div class="card" style="width: 18rem;">
                 <a href="detalhes_produtos4.html"><img src="imgs/Anel-Ouro-Amarelo-Diamantes-e-Esmeralda.webp" class="card-img-top" alt="Anel"></a>
                 <div class="card-body">
@@ -181,7 +183,7 @@
                 </div>
               </div>
         </div>
-        <div class='col-3'>
+        <div class='col-md-6 col-xl-3'>
             <div class="card" style="width: 18rem;">
                 <a href="detalhes_produto8.html"><img src="imgs/brinco_ouro.webp" class="card-img-top" alt="Brinco"></a>
                 <div class="card-body">
@@ -192,7 +194,7 @@
               </div>
         </div>
    
-        <div class='col-3'>
+        <div class='col-md-6 col-xl-3'>
             <div class="card" style="width: 18rem;">
                 <a href="detalhes_produto2.html"><img src="imgs/colar_perolas.webp" class="card-img-top" alt="Colar"></a>
                 <div class="card-body">
@@ -203,7 +205,7 @@
               </div>
    
         </div>
-        <div class='col-3'>
+        <div class='col-md-6 col-xl-3'>
             <div class="card" style="width: 18rem;">
                 <a href="detalhes_produto7.html"></a><img src="imgs/Pulseira-Coracao.webp" class="card-img-top" alt="Pulseira"></a>
                 <div class="card-body">
@@ -216,8 +218,6 @@
               </div>
    
         </div>
-   
-   </div>
   </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
     </script>
