@@ -6,141 +6,154 @@
     <title>Emiarah</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="emiarah.css">
-
-
-    <style>
-        *{
-            padding: 0;
-            margin: 0;
-        }
-        body{
-            font-family: 'Raleway';
-        }
-
-        .container-fluid{
-            width: 100%;
-            height: 60px;
-            font-size: 12px;
-            margin-left:10px ;
-            margin-right: 10px;
-            
-        }
-
-        ul, li{
-            letter-spacing: 1px;
-            padding: 20px;
-            
-           
-        }
-
-        .form-control, .btn{
-            font-size: 15px;
-            color:black
-            
-        }
-        .navbar-brand{
-            margin-left: 10px;
-        }
-
-        img{
-            background-position: center;
-            background-size: cover;
-        }
-
-       /*Cartões*/
-
-       .card{
-        margin-top: 50px;
-        margin-left: 20px;
-        display: inline-block;
-        font-family: 'Times New Roman', Times, serif;
+       <style>
+       *{
+           padding: 0;
+           margin: 0;
        }
-      .navegacao{
-        background-color:rgb(225, 225, 225);
-        height: 100px;
-      }
-    
-      .joia{
-      
-        margin-right: 70px;
-        color:  rgb(181, 162, 113);
-        font-size: 15px;
-      }
-      .carrossel{
-      width: 70%;
-      margin: auto;
-      }
-      .logo{
-        margin-top: 7px;
-        width: 150px;
-      
-      }
-      .home{
-        font-size: 20px;
-        margin-left: 850px;
-      }
-      .nv{
-        margin-top: 120px;
-        margin-bottom: 50px;
-      }
-      .sobre_emiarah{
-        text-align: center;
-        margin-top: 220px;
+       body{
+           font-family: 'Raleway';
+       }
+
+       ul, li{
+           letter-spacing: 1px;
+           padding: 20px;
+          
+       }
+
+       .form-control, .btn{
+           font-size: 15px;
+           color:black
+          
+       }
+       .navbar-brand{
+           margin-left: 10px;
+       }
+
+       img{
+           background-position: center;
+           background-size: cover;
+       }
+       
+  
+     .joia{
+       margin-right: 70px;
+       color:  rgb(181, 162, 113);
+       font-size: 15px;
+       text-decoration: none;
+     }
+
+     .carrossel{
+     width: 70%;
+     margin: auto;
+     margin-top: 90px;
+     }
+
+     
+     .home{
+       font-size: 15px;
+       margin-left: 800px;
+     }
+
+     h3{
+       text-transform: uppercase;
+       color:black ;
+       text-align: center;
+       margin-bottom: 20px;
+       margin-top: 30px;
+
+     }
+     .sobre_emiarah{
+       text-align: center;
+       margin-top: 100px;
+       color: black;
+     }
+
+
+      /*Cartões*/
+      .card{
+       margin-top: 50px;
+       margin-left: 5px;
+       display: inline-block;
+       font-family: 'Times New Roman', Times, serif;
       }
 
 
-    </style>
+      /*Footer*/
+     #footer{
+       text-align: center;
+       margin-top: 80px;
+     }
+     #footer_col{
+       padding-left: 500px;
+       padding-right: 500px;
+       margin-bottom: 30px;
+     }
+
+     h5{
+       font-size: 15px;
+       color: black;
+       text-transform: uppercase;
+       margin-bottom: 20px;
+     }
+     p{
+       font-size: small;
+     }
+  
+   
+     
+     .nav2{
+      margin-top: 40px;
+     }
+     .main{
+      margin:auto;
+     }
+   </style>
+
   </head>
   <body>
-    <header>
+  
         <!--Principal Nav-->
-        <nav class="navbar navbar-expand-lg  fixed-top navegacao">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img class="logo " src="imgs/Logo_Emiarah-removebg-preview.png" alt="Logo da Emiarah">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active home" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#"><img src="imgs/icons8-usuário-24.png" alt="whatsapp"></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#"><img src="imgs/icons8-shopping-bags-24.png" alt="whatsapp"></a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
-                  <button class="btn btn-outline-dark btn" type="submit">Procurar</button>
-                </form>
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="imgs/Logo_Emiarah-removebg-preview.png" alt="Logo" class="d-inline-block align-text-top logo">
+            </a>
+            <h1 class="pbr">EMIARAH
+              
+              <p >BRASIL | 1988</p>
+            </h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    
+                    <a class="nav-link" href="#"> <img src="imgs/icons8-usuário-24.png" alt="Logo" class="d-inline-block align-text-top  icon"></a>
+                    <a class="nav-link" href="#"> <img src="imgs/icons8-shopping-bags-24.png" alt="Logo" class="d-inline-block align-text-top  icon"></a>
+                    <a class="nav-link" href="#"> <img src="imgs/home-page.png" alt="Logo" class="d-inline-block align-text-top  icon"></a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </nav>
-    </header>
+            </nav>
+       
+       
     <!--Outra barra-->
-    <nav class="navbar navbar-expand-lg top navegacao2">
-      <div class="container-fluid nv">
-     
-        <div class="container text-center">
+        <div class="container text-center nav2">
           <div class="row">
             <div class="col c">
-              <a href="" target="_blank" class="joia">BRINCOS</a>  
-              <a href="" target="_blank" class="joia">COLARES</a>
-              <a href="" target="_blank" class="joia">PULSEIRAS</a>
-              <a href="" target="_blank" class="joia">ANEIS</a>
+              <a href="" target="_blank" class="joia">PRODUTOS CADASTRADOS</a>  
+              <a href="" target="_blank" class="joia">LISTA DE PRODUTOS</a>
+              <a href="" target="_blank" class="joia">LOGIN</a>
+             
             </div>
           </div>
         </div>
         </div>
     </nav>
-</header>
+
 <!--carrossel-->
-<div class="container fluid">
+
 <div id="carouselExampleInterval" class="carousel slide carrossel" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
@@ -165,11 +178,12 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-    <!--Cartões-->
 
+    <!--Cartões-->
+<div class="container-fluid main">
 <h2 class="sobre_emiarah">SOBRE A EMIARAH</h2>
-    <div class='row container-fluid '>
-        <div class='col-3'>
+<div class='row'>
+        <div class='col-md-6 col-xl-3'>
             <div class="card" style="width: 18rem;">
                 <a href="detalhes_produtos4.html"><img src="imgs/Anel-Ouro-Amarelo-Diamantes-e-Esmeralda.webp" class="card-img-top" alt="Anel"></a>
                 <div class="card-body">
@@ -181,7 +195,7 @@
                 </div>
               </div>
         </div>
-        <div class='col-3'>
+        <div class='col-md-6 col-xl-3'>
             <div class="card" style="width: 18rem;">
                 <a href="detalhes_produto8.html"><img src="imgs/brinco_ouro.webp" class="card-img-top" alt="Brinco"></a>
                 <div class="card-body">
@@ -192,7 +206,7 @@
               </div>
         </div>
    
-        <div class='col-3'>
+        <div class='col-md-6 col-xl-3'>
             <div class="card" style="width: 18rem;">
                 <a href="detalhes_produto2.html"><img src="imgs/colar_perolas.webp" class="card-img-top" alt="Colar"></a>
                 <div class="card-body">
@@ -203,22 +217,42 @@
               </div>
    
         </div>
-        <div class='col-3'>
+        <div class='col-md-6 col-xl-3'>
             <div class="card" style="width: 18rem;">
                 <a href="detalhes_produto7.html"></a><img src="imgs/Pulseira-Coracao.webp" class="card-img-top" alt="Pulseira"></a>
                 <div class="card-body">
-                  <p class="card-text">
                     <h5 class="card-title">Joias sustentáveis</h5>
-                     A Emiarah está sempre preocupada com a procedência de seus produtos. Oferencendo para a sociedade
+                    <p class="card-text">A Emiarah está sempre preocupada com a procedência de seus produtos. Oferencendo para a sociedade
                     peças finas e elegantes com o selo de sustentabilidade.
                   </p>
                 </div>
               </div>
-   
+            </div>
         </div>
-   
-   </div>
   </div>
+
+  <footer>
+    <div class="container fluid" id="footer">
+    <div class="contact">
+      <h5>Entre em contato conosco</h5>
+      <div class="row" id="footer_col">
+        <div class="col">
+          <a href=""><img src="imgs/icons8-whatsapp-24.png" alt=""></a>
+        </div>
+        <div class="col">
+          <a href=""><img src="imgs/icons8-facebook-24.png" alt=""></a>
+        </div>
+        <div class="col">
+          <a href=""><img src="imgs/icons8-gmail-24.png" alt=""></a>
+        </div>
+        <div class="col">
+          <a href=""><img src="imgs/icons8-instagram-24.png" alt=""></a>
+        </div>
+      </div>
+    <p>Copyright &copy EMIARAH</p>
+    </div>
+    </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
     </script>
 
