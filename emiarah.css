@@ -1,45 +1,121 @@
 *{
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 body{
+<<<<<<< HEAD
   font-family: 'Raleway';
 }
+=======
+    font-family: 'Raleway';
+}
+
+>>>>>>> 09fb920663146852f5287bbca79a7a32c38c3911
 ul, li{
-  letter-spacing: 1px;
-  padding: 20px;
-  
- 
+    letter-spacing: 1px;
+    padding: 20px;
+   
 }
 
 .form-control, .btn{
-  font-size: 15px;
-  color:black
-  
+    font-size: 15px;
+    color:black
+   
 }
 .navbar-brand{
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
 img{
-  background-position: center;
-  background-size: cover;
+    background-position: center;
+    background-size: cover;
+}
+.navegacao{
+background-color:rgb(225, 225, 225);
+height: 100px;
+}
+
+.joia{
+margin-right: 70px;
+color:  rgb(181, 162, 113);
+font-size: 15px;
+text-decoration: none;
+}
+
+.carrossel{
+width: 70%;
+margin: auto;
+}
+
+.logo{
+width: 85px;
+}
+
+.home{
+font-size: 15px;
+margin-left: 800px;
+}
+
+.nv{
+margin-top: 100px;
+margin-bottom: 60px;
+}
+h3{
+text-transform: uppercase;
+color:black ;
+text-align: center;
+margin-bottom: 20px;
+margin-top: 30px;
+
+}
+.sobre_emiarah{
+text-align: center;
+margin-top: 100px;
+color: black;
 }
 
 /*Cartões*/
 
 .card{
-margin-top: 150px;
-margin-left: 20px;
+margin-top: 50px;
+margin-left: 150px;
 display: inline-block;
 font-family: 'Times New Roman', Times, serif;
 }
 
+<<<<<<< HEAD
 .pbr{
   text-align:center ;
  }
  .icon{
   width: 3%;}
+=======
+.row{
+ padding-left: 100px;
+ padding-right: 200px;
+}
+
+/*Footer*/
+#footer{
+text-align: center;
+margin-top: 80px;
+}
+#footer_col{
+padding-left: 500px;
+padding-right: 500px;
+margin-bottom: 30px;
+}
+
+h5{
+font-size: 15px;
+color: black;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+p{
+font-size: small;
+}
+>>>>>>> 09fb920663146852f5287bbca79a7a32c38c3911
 
   .logo{
     width: 85px;
