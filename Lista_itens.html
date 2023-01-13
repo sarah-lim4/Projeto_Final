@@ -15,7 +15,7 @@
       }
       .card{
       margin-top: 50px;
-      margin-left: 200px;
+      margin-left: 150px;
       display: inline-block;
       font-family: 'Times New Roman', Times, serif;
       }
@@ -47,43 +47,6 @@
           </div>
         </nav>
    
-
-
-  <!--Filtro-->
-  <div class="filtro">
-    <h3>Filtros</h3>
-    Filtrar por: <input type="search" id="pesquisa" oninput="limpar()"> 
-    <button type="button" onclick="filtrar()">Filtrar</button>
-    <ul id="lista">
-        <li>Ana</li>
-        <li>Mariana</li>
-        <li>Banana</li>
-        <li>Celular</li>
-        <li>Smartphone</li>
-        <li>Dumbphone</li>
-        <li>Tablet</li>
-        <li>Phablet</li>
-        <li>Laptop</li>
-        <li>Top-down</li>
-    </ul>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript">
-        function limpar() {
-            $('#card li').show();
-        }
-        function filtrar() {
-            var termo = $('#pesquisa').val().toUpperCase();
-            $('#lista li').each(function() { 
-               if($(this).html().toUpperCase().indexOf(termo) === -1) {
-                   $(this).hide();
-               }
-            });
-        }
-    </script>
-  </div>
-
-
-
     <!--Cards-->
     <div class='row'>
       <div class='col-md-6 col-xl-4'>
