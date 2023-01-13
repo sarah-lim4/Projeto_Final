@@ -74,18 +74,16 @@ color: black;
 
 .card{
 margin-top: 50px;
-margin-left: 150px;
+margin-left: 100px;
 display: inline-block;
 font-family: 'Times New Roman', Times, serif;
 }
 
-<<<<<<< HEAD
 .pbr{
 text-align:center ;
 }
 .icon{
 width: 3%;}
-=======
 .row{
 padding-left: 100px;
 padding-right: 200px;
@@ -111,7 +109,6 @@ margin-bottom: 20px;
 p{
 font-size: small;
 }
->>>>>>> 09fb920663146852f5287bbca79a7a32c38c3911
 
 .logo{
   width: 85px;
