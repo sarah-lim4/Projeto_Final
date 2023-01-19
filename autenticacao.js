@@ -13,7 +13,7 @@ const usuarios = [
     }
 ]
 
-let botao = document.getElementById('btnLogar')
+let botao = document.getElementById('btnLogar');
 
 botao.addEventListener('click', function logar(){
 
