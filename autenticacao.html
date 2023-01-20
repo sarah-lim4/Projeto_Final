@@ -16,7 +16,7 @@
 
     h3{
         text-transform: uppercase;
-        color: rgba(235, 176, 15, 0.5);
+        color: #c0952a;
         font-weight: bolder;
     }
 
@@ -61,16 +61,6 @@
         margin: 0px 0px 12px -5px;
     }
 
-
-    .input i{
-       font-size: 1.2em;
-       padding: 5px;
-       background: -webkit-linear-gradient(-45deg,rgba(255, 255, 255, 0.5), #dcb55a, #eedaa9);
-       -webkit-background-clip: text;
-       -webkit-text-fill-color: transparent;
-    }
-
-
     .input input{
         width: 100%;
         border: none;
@@ -107,6 +97,19 @@
         background:linear-gradient(rgba(74, 155, 27, 0.5), #72bd38, #22c006) ;
         color: #fff;
     }
+    p{
+        margin-top: 50px;
+        font-weight: bold;
+        color: black;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover{
+       color: #c0952a;
+    }
  @keyframes iniciar{
         0%{
             top:-20px;
@@ -136,6 +139,7 @@
 
         <div class="input btn">
             <button class="btn form-control" id="btnLogar" onclick="">Logar</button>
+            <p>Não possui login?<a href="Cadastro.html" target="_blank">Cadastre-se!</p> </a>
         </div>
     </main>
 </div>
