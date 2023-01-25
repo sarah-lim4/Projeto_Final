@@ -25,7 +25,12 @@
        min-height: 100vh;
       }
 
-      form .input-group button{
+      .chave input{
+        border-radius: 15px;
+        
+      }
+
+    .input-group button{
      width: 30%;
      height: 35px;
      background: #dcb55a;
@@ -38,19 +43,12 @@
      font-size: 16px;
   }
 
-  .filtro h2{
+  h2{
     color: #dcb55a;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -70px;
   }
-
-  form .input-group input{
-    width: 100%;
-    height: 30px;
-    padding: 15px;
-    font-size: 15px;
-    border-radius: 15px;
-    transition: all 0.4s ease;
-}
-
 
       .card{
       margin-top: 50px;
@@ -201,7 +199,7 @@
 
  </div>
 
-<!--Filtro-->
+<!--Filtro
 <div class="filtro">
  <div class="form-box">
   <h2>Filtros</h2>
@@ -234,7 +232,46 @@
       </div>
   </form>
 </div>
+</div>-->
+<h2>Filtros</h2>
+<div class="filtro">
+<form action="#">
+  <div class="input chave">
+    <label for="chave"> Palavra-chave:</label>
+    <input type="text" id="chave" placeholder="Procura algo específico?">
 </div>
+
+<label for="material"><br>Material:</label>
+        <div class="input">
+            <input type="radio" id="prata" name="material" value="prata">
+            <label for="ouro">Prata</label><br>
+            <input type="radio" id="ouro_branco" name="material" value="ouro_branco">
+            <label for="prata">Ouro branco</label><br>
+            <input type="radio" id="ouro_rose" name="material" value="ouro_rose">
+            <label for="ouro_rose">Ouro Rosé</label><br>
+            <input type="radio" id="ouro_amarelo" name="material" value="ouro_amarelo">
+            <label for="ouro_amarelo">Ouro amarelo</label><br>
+        </div><br>
+
+        <label for="categoria">Categoria:</label>
+        <div class="input">
+            <input type="radio" id="colar" name="categoria" value="colar">
+            <label for="colar">Colar</label><br>
+            <input type="radio" id="pingente" name="categoria" value="pingente">
+            <label for="pingente">Pingente</label><br>
+            <input type="radio" id="pulseira" name="categoria" value="pulseira">
+            <label for="pulseira">Pulseira</label><br>
+            <input type="radio" id="brinco" name="categoria" value="brinco">
+            <label for="brinco">Brinco</label><br>
+            <input type="radio" id="anel" name="categoria" value="anel">
+            <label for="anel">Anel</label>
+        </div><br>
+
+        <div class="input-group">
+          <button>Filtrar</button>
+      </div> </form>
+    </div>
+       
 
 
 <!--Rodapé-->
