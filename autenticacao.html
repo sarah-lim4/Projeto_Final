@@ -28,6 +28,7 @@
     body{
         width: 100%;
         height: 100vh;
+        margin-bottom: 200px;
         font-family: 'Poppins', sans-serif;
         background: linear-gradient(30deg, #EDE1D5, #996d50, #DEB892);
     }
@@ -35,7 +36,7 @@
 
     #form{
         position: relative;
-        top: 50%;
+        top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: #fff;
@@ -43,6 +44,7 @@
         padding: 80px;
         width: min-content;
         align-items: center;
+        margin-bottom: 30px;
         color: #996d50;
         animation: iniciar 1.6s ease-out;
         pointer-events: all;
@@ -98,9 +100,9 @@
         color: #fff;
     }
     p{
-        margin-top: 50px;
-        font-weight: bold;
-        color: #DEB892;
+        margin-top: 120px;
+        text-align: center;
+        font-size: small;
     }
     a{
         text-decoration: none;
@@ -109,6 +111,14 @@
 
     a:hover{
         color: #996d50;
+    }
+
+    .card li{
+        color: #996d50;
+    }
+    .card{
+        margin-left: 100px;
+        margin-top: 30px;
     }
  @keyframes iniciar{
         0%{
@@ -124,6 +134,25 @@
     }
   </style>
   <body>
+
+    <div class="row">
+
+        <div class="col-md-12 col-xl-1">
+
+            <div class="card" style="width: 18rem;">
+                <ul class="list-group list-group-flush">
+                  <a href="pagina_inicial.html" target="_blank"><li class="list-group-item">Home</li></a>
+                  <a href="Lista_itens.html" target="_blank"><li class="list-group-item">Produtos</li></a>
+                  <a href="perfil.html" target="_blank"><li class="list-group-item">Perfil</li></a>
+                  <a href="Cadastro.html" target="_blank"><li class="list-group-item">Cadastro</li></a>
+                  <a href="autenticacao.html" target="_blank"><li class="list-group-item">Login</li></a>
+                </ul>
+              </div>
+            </div>
+
+
+<div class="col-md-12 col-xl-11">
+
     <div id="form">
         <h3 class="title">Autenticação</h3>
     <main>
@@ -143,6 +172,16 @@
         </div>
     </main>
 </div>
+
+</div>
+
+</div>
+
+<footer>
+    
+    <p>Copyright &copy EMIARAH</p>
+    
+  </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
