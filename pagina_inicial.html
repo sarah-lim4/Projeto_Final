@@ -71,12 +71,14 @@
 
       /*Cartões*/
       .card{
-       margin-top: 50px;
-       margin-left: 60px;
-       margin-right: 20px;
-       display: block;
-       align-items: center;
-       font-family: 'Times New Roman', Times, serif;
+      align-items: center;
+      margin-left: 20px;
+      margin-right: 60px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      display: inline-block;
       }
 
      h5{
@@ -86,13 +88,16 @@
        margin-bottom: 20px;
      }
 
-     p{
+     footer p{
        font-size: small;
+       text-align: center;
+       margin-top: 50px;
      }
   
      .nav2{
       margin-top: 40px;
       margin-bottom: 30px;
+      align-items: center;
      }
 
      .text {
@@ -135,121 +140,124 @@
 
        
     <!--Outra barra-->
-        <div class="container text-center nav2">
-          <div class="row">
-            <div class="col c">
-              <a href="" target="_blank" class="joia">PRODUTOS CADASTRADOS</a>  
-              <a href="" target="_blank" class="joia">LISTA DE PRODUTOS</a>
-              <a href="" target="_blank" class="joia">LOGIN</a>
-             
+        <div class="container">
+          <div class="row nav2">
+            <div class="col-md-12 col-xl-4">
+              <a href="" target="_blank" class="joia">PRODUTOS CADASTRADOS</a> 
             </div>
-          </div>
-        </div>
-    </nav>
+              <div class="col-md-12 col-xl-4">
+              <a href="" target="_blank" class="joia">LISTA DE PRODUTOS</a>
+            </div>
+            <div class="col-md-12 col-xl-4">
+              <a href="" target="_blank" class="joia">LOGIN</a>
+            </div>
+            </div>
+     
 
 <!--carrossel-->
 
-<div id="carouselExampleInterval" class="carousel slide carrossel" data-bs-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide carrossel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
   <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="10000">
-      <img src="imgs/imagem_c1.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="imgs/imagem_c2.jpg" class="d-block w-100" alt="...">
+    <div class="carousel-item active">
+      <img src="imgs/imagem_c1.jpg" class="d-block w-100" alt="imagem_carrosel">
     </div>
     <div class="carousel-item">
-      <img src="imgs/imagem_c3.jpg" class="d-block w-100" alt="...">
+      <img src="imgs/imagem_c2.jpg" class="d-block w-100" alt="imagem_carrosel">
     </div>
     <div class="carousel-item">
-      <img src="imgs/imagem_c4.jpg" class="d-block w-100" alt="...">
+      <img src="imgs/imagem_c3.jpg" class="d-block w-100" alt="imagem_carrosel">
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/imagem_c4.jpg" class="d-block w-100" alt="imagem_carrosel">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
 
     <!--Cartões-->
-<div class="container-fluid">
+
 <h2 class="sobre_emiarah">SOBRE A EMIARAH</h2>
-<div class='row'>
-        <div class='col-md-6 col-xl-3'>
-            <div class="card" style="width: 18rem;">
-                <a href="https://brasilescola.uol.com.br/o-que-e/quimica/o-que-e-sustentabilidade.htm" target="_blank"><img src="imgs/Amostra.png" class="card-img-top" alt="Colares">
-                <div class="card-body">
-                    <h5 class="card-title">Inovação</h5>
-                  <p class="card-text">
-                    A Emiarah visa equilibrar a preservação do meio ambiente e o que ele pode oferecer em consonância 
-                    com a qualidade de vida da população. Por esse motivo todas as nossas joias são sustentáveis.</a>
-                  </p>
-                </div>
-              </div>
-        </div>
-        <div class='col-md-6 col-xl-3'>
-            <div class="card" style="width: 18rem;">
-                <a href="https://www.waufen.com.br/blog/joias-sustentaveis-voce-sabe-o-que-e-esse-conceito/" target="_blank"><img src="imgs/Amostra (1).png" class="card-img-top" alt="Brincos">
-                <div class="card-body">
-                    <h5 class="card-title">Ouro ético</h5>
-                  <p class="card-text">Nossa matéria-prima provem de exploração justa. O ouro ético é vindo da mineração responsável, que não traz males 
-                    nem aos trabalhadores envolvidos na mineração, nem à comunidade, nem ao meio ambiente.</p></a>
-                </div>
-              </div>
-        </div>
-   
-        <div class='col-md-6 col-xl-3'>
-            <div class="card" style="width: 18rem;">
-                <a href="https://www.ecoambientale.com.br/blog/curiosidades/como-funciona-a-reciclagem-de-metais#:~:text=Metais%20recicl%C3%A1veis%20e%20n%C3%A3o%2Drecicl%C3%A1veis,latas%20de%20tinta%20e%20clipes." target="_blank"><img src="imgs/Amostra (3).png" class="card-img-top" alt="Aneis">
-                <div class="card-body">
-                    <h5 class="card-title">Metais reciclados</h5>
-                  <p class="card-text">A loja vem com a proposta da utilização de metais reciclados. Assim, 
-                    eles são ressignificados em novas joias maravilhosas, que deslumbram seus espectadores e de maneira a ajudar o meio ambiente.</p></a>
-                </div>
-              </div>
-   
-        </div>
-        <div class='col-md-6 col-xl-3'>
-            <div class="card" style="width: 18rem;">
-                <a href="https://umsoplaneta.globo.com/financas/negocios/noticia/2022/07/04/brilho-consciente-praticas-sustentaveis-em-joalheria-minimizam-impactos-da-cadeia-de-metais-preciosos.ghtml" target="_blank"><img src="imgs/Amostra (2).png" class="card-img-top" alt="Colares">
-                <div class="card-body">
-                    <h5 class="card-title">Joias sustentáveis</h5>
-                    <p class="card-text">A Emiarah está sempre preocupada com a procedência de seus produtos. Oferencendo para a sociedade
-                    peças finas e elegantes com o selo de sustentabilidade.
-                  </p></a>
-                </div>
-              </div>
-            </div>
-        </div>
+
+<div class="row">
+
+<div class="col-md-6 col-xl-3">
+  <div class="card" style="width: 15rem;">
+    <img src="imgs/Amostra.png" class="card-img-top" alt="colares">
+    <div class="card-body">
+      <h5 class="card-title">Inovação</h5>
+      <a href="https://brasilescola.uol.com.br/o-que-e/quimica/o-que-e-sustentabilidade.htm">
+        <p class="card-text">A Emiarah visa equilibrar a preservação do meio ambiente e o que ele pode oferecer em consonância
+        com a qualidade de vida da população. Por esse motivo todas as nossas joias são sustentáveis.</p>
+      </a>
+    </div>
   </div>
+</div>
+
+<div class="col-md-6 col-xl-3">
+  <div class="card" style="width: 15rem;">
+  <img src="imgs/Amostra (1).png" class="card-img-top" alt="brincos">
+  <div class="card-body">
+    <h5 class="card-title">Ouro ético</h5>
+    <a href="https://www.waufen.com.br/blog/joias-sustentaveis-voce-sabe-o-que-e-esse-conceito/" target="_blank">
+      <p class="card-text">Nossa matéria-prima provem de exploração justa. O ouro ético é vindo da mineração responsável, que não traz males
+      nem aos trabalhadores, nem à comunidade, nem ao meio ambiente.</p>
+    </a>
+  </div>
+</div>
+</div>
+
+<div class="col-md-6 col-xl-3">
+  <div class="card" style="width: 15rem;">
+    <img src="imgs/Amostra (2).png" class="card-img-top" alt="colares">
+    <div class="card-body">
+      <h5 class="card-title">Metais reciclados</h5>
+      <a href="https://www.ecoambientale.com.br/blog/curiosidades/como-funciona-a-reciclagem-de-metais#:~:text=Metais%20recicl%C3%A1veis%20e%20n%C3%A3o%2Drecicl%C3%A1veis,latas%20de%20tinta%20e%20clipes." target="_blank">
+        <p class="card-text">A loja vem com a proposta da utilização de metais reciclados. Assim,
+        eles são ressignificados em novas joias maravilhosas, que deslumbram seus espectadores e de maneira a ajudar o meio ambiente.</p>
+     </a>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-md-6 col-xl-3">
+  <div class="card" style="width: 15rem;">
+    <img src="imgs/Amostra (3).png" class="card-img-top" alt="aneis">
+    <div class="card-body">
+      <h5 class="card-title">Joias sustentáveis</h5>
+      <a href="https://umsoplaneta.globo.com/financas/negocios/noticia/2022/07/04/brilho-consciente-praticas-sustentaveis-em-joalheria-minimizam-impactos-da-cadeia-de-metais-preciosos.ghtml" target="_blank" >
+        <p class="card-text">A Emiarah está sempre preocupada com a procedência de seus produtos. Oferencendo para a sociedade
+        peças finas, elegantes e com sua marca registrada: o selo de sustentabilidade.</p>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+ </div>
+
+
 
   <footer>
-    <div class="container fluid" id="footer">
-    <div class="contact">
-      <h5>Entre em contato conosco</h5>
-      <div class="row" id="footer_col">
-        <div class="col-md-6 col-xl-3">
-          <a href=""><img src="imgs/icons8-whatsapp-24.png" alt=""></a>
-        </div>
-        <div class="col-md-6 col-xl-3">
-          <a href=""><img src="imgs/icons8-facebook-24.png" alt=""></a>
-        </div>
-        <div class="col-md-6 col-xl-3">
-          <a href=""><img src="imgs/icons8-gmail-24.png" alt=""></a>
-        </div>
-        <div class="col-md-6 col-xl-3">
-          <a href=""><img src="imgs/icons8-instagram-24.png" alt=""></a>
-        </div>
-      </div>
+    
     <p>Copyright &copy EMIARAH</p>
-    </div>
-    </div>
+    
   </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js navbar.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js navbar.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
   </body>
 </html>

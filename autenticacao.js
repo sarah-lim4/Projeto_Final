@@ -31,7 +31,7 @@ botao.addEventListener('click', function logar(){
     }
 
 if(validaLogin==true){
-    location.href = "pagina_inicial.html";
+    location.href = "perfil.html";
 }else{
     alert("Senha ou usuário incorreto. Tente novamente.")
 }
