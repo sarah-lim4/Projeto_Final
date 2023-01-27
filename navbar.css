@@ -1,0 +1,16 @@
+.navbar{
+    background-image: url(imgs/golden.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+.nav-item{
+   margin-right: 30px;}
+
+   .logo{
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 180px;
+   
+   }

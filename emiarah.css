@@ -31,25 +31,9 @@ background-color:rgb(225, 225, 225);
 height: 100px;
 }
 
-.joia{
-margin-right: 70px;
-color:  rgb(181, 162, 113);
-font-size: 15px;
-text-decoration: none;
-}
-
-.carrossel{
-width: 70%;
-margin: auto;
-}
 
 .logo{
 width: 85px;
-}
-
-.home{
-font-size: 15px;
-margin-left: 800px;
 }
 
 .nv{
@@ -64,23 +48,9 @@ margin-bottom: 20px;
 margin-top: 30px;
 
 }
-.sobre_emiarah{
-text-align: center;
-margin-top: 100px;
-color: black;
-}
-
-/*Cartões*/
-
-.card{
-margin-top: 50px;
-margin-left: 100px;
-display: inline-block;
-font-family: 'Times New Roman', Times, serif;
-}
-
 .pbr{
-text-align:center ;
+  margin-right: 60px;
+  text-align: center;
 }
 .icon{
 width: 3%;}
@@ -90,15 +60,6 @@ padding-right: 200px;
 }
 
 /*Footer*/
-#footer{
-text-align: center;
-margin-top: 80px;
-}
-#footer_col{
-padding-left: 500px;
-padding-right: 500px;
-margin-bottom: 30px;
-}
 
 h5{
 font-size: 15px;
@@ -106,19 +67,10 @@ color: black;
 text-transform: uppercase;
 margin-bottom: 20px;
 }
-p{
-font-size: small;
-}
 
 .logo{
   width: 85px;
 }
 p{
 font-size: small;
-}
-
-/*Filtro*/
-.filtro{
-  text-align: center;
-  margin-top: 100px;
 }

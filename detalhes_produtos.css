@@ -1,3 +1,4 @@
+
 .nome_produto{
     text-align: center;
     font-weight: bold;
@@ -24,6 +25,4 @@
     border-style: double;
     margin-bottom: 35px;
 }
-.img_ilustrativa{
-    color: rgb(122, 122, 122);
-}
+

@@ -4,41 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  type="image/x-icon" href="imgs/FavIcon.png">
     <title>Nossos produtos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="emiarah.css">
+    <link rel="stylesheet" href="navbar.css">
+    
+    <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    }
+      /*Filtro*/
+      .filtro{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 20px;
+       min-height: 100vh;
+      }
+
+      .chave input{
+        border-radius: 15px;
+        
+      }
+
+    .input-group button{
+     width: 30%;
+     height: 35px;
+     background: #dcb55a;
+     border-radius: 20px;
+     outline: none;
+     border: none;
+     margin-top: 15px;
+     color: white;
+     cursor: pointer;
+     font-size: 16px;
+  }
+
+  h2{
+    color: #dcb55a;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -70px;
+  }
+
+
+      .card{
+      margin-top: 50px;
+      margin-left: 70px;
+      font-family: 'Poppins', sans-serif;
+      }
+
+      p{
+        text-align: center;
+      }
+    </style>
 </head>
 <body>
  
      <!-- Barra de navegação-->
-     <nav class="navbar bg-body-tertiary">
+     <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="imgs/Logo_Emiarah-removebg-preview.png" alt="Logo" class="d-inline-block align-text-top logo">
-        </a>
-        <h1 class="pbr">EMIARAH
-          
-          <p >BRASIL | 1988</p>
-        </h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                
-                <a class="nav-link" href="#"> <img src="imgs/icons8-usuário-24.png" alt="Logo" class="d-inline-block align-text-top  icon"></a>
-                <a class="nav-link" href="#"> <img src="imgs/icons8-shopping-bags-24.png" alt="Logo" class="d-inline-block align-text-top  icon"></a>
-                <a class="nav-link" href="pagina_inicial.html"> <img src="imgs/home-page.png" alt="Logo" class="d-inline-block align-text-top  icon"></a>
-              </div>
-            </div>
-          </div>
-        </nav>
+        <a class="navbar-brand" href="#"><img class="logo"src="imgs/Logo_Emiarah-removebg-preview.png" alt="Logo Emiarah"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+           <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="pagina_inicial.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Lista_itens.html">Nossos Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Cadastro.html" >Cadastre-se</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="autenticacao.html" >Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.google.com.br/" >Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
    
-
     <!--Cards-->
     <div class='row'>
       <div class='col-md-6 col-xl-4'>
-          <div class="card" style="width: 20rem;">
+          <div class="card" style="width: 18rem;">
               <a href="detalhes_produto.html"><img src="imgs/Pingente-Prata.webp" class="card-img-top" alt="Pingente de prata e topázio"></a>
               <div class="card-body">
                   <h5 class="card-title">Pingente de prata e topázio</h5>
@@ -47,7 +107,7 @@
             </div>
       </div>
       <div class='col-md-6 col-xl-4'>
-          <div class="card" style="width: 20rem;">
+          <div class="card" style="width: 18rem;">
               <a href="detalhes_produto2.html"><img src="imgs/colar_perolas.webp" class="card-img-top" alt="Colar de ouro com pérolas"></a>
               <div class="card-body">
                   <h5 class="card-title">Colar de ouro com pérolas</h5>
@@ -57,7 +117,7 @@
       </div>
  
       <div class='col-md-6 col-xl-4'>
-          <div class="card" style="width: 20rem;">
+          <div class="card" style="width: 18rem;">
               <a href="detalhes_produto3.html"><img src="imgs/Anel_coracao.webp" class="card-img-top" alt="Anel coração"></a>
               <div class="card-body">
                   <h5 class="card-title">Anel coração</h5>
@@ -67,7 +127,7 @@
  
       </div>
       <div class='col-md-6 col-xl-4'>
-          <div class="card" style="width: 20rem;">
+          <div class="card" style="width: 18rem;">
               <a href="detalhes_produtos4.html"><img src="imgs/Anel-Ouro-Amarelo-Diamantes-e-Esmeralda.webp" class="card-img-top" alt="Anel ouro com esmeralda"></a>
               <div class="card-body">
                   <h5 class="card-title">Anel ouro com esmeralda</h5>
@@ -76,7 +136,7 @@
             </div>
             </div>
             <div class='col-md-6 col-xl-4'>
-              <div class="card" style="width: 20rem;">
+              <div class="card" style="width: 18rem;">
                   <a href="detalhes_produto5.html"><img src="imgs/Anel-Ouro-Rose-Diamantes.webp" class="card-img-top" alt="Anel ouro rosé"></a>
                   <div class="card-body">
                       <h5 class="card-title">Anel de ouro rosé e diamante</h5>
@@ -85,7 +145,7 @@
                 </div>
               </div>
               <div class='col-md-6 col-xl-4'>
-                <div class="card" style="width: 20rem;">
+                <div class="card" style="width: 18rem;">
                     <a href="detalhes_produto6.html"><img src="imgs/pulseira_prata_perola.webp" class="card-img-top" alt="Pulseirda de prata com pérola"></a>
                     <div class="card-body">
                         <h5 class="card-title">Pulseira de prata com pérola e quartzo</h5>
@@ -94,7 +154,7 @@
                   </div>
            </div>
            <div class='col-md-6 col-xl-4'>
-              <div class="card" style="width: 20rem;">
+              <div class="card" style="width: 18rem;">
                   <a href="detalhes_produto7.html"><img src="imgs/Pulseira-Coracao.webp" class="card-img-top" alt="Pulseira coração"></a>
                   <div class="card-body">
                       <h5 class="card-title">Pulseira coração</h5>
@@ -103,7 +163,7 @@
                 </div>
          </div>
          <div class='col-md-6 col-xl-4'>
-          <div class="card" style="width: 20rem;">
+          <div class="card" style="width: 18rem;">
               <a href="detalhes_produto8.html"><img src="imgs/brinco_ouro.webp" class="card-img-top" alt="Brinco de ouro e diamantes"></a>
               <div class="card-body">
                   <h5 class="card-title">Brinco de ouro e diamantes</h5>
@@ -112,7 +172,7 @@
             </div>
      </div>
      <div class="col-md-6 col-xl-4" >
-      <div class="card" style="width: 20rem;">
+      <div class="card" style="width: 18rem;">
       <a href="detalhes_produtos9.html"><img src="imgs/brinco_ouro_perolas.webp" class="card-img-top" alt="Brinco de ouro e pérolas"></a>
       <div class="card-body">
           <h5 class="card-title">Brinco de ouro e pérolas</h5>
@@ -121,7 +181,7 @@
     </div>
     </div>
     <div class='col-md-6 col-xl-4'>
-      <div class="card" style="width: 20rem;">
+      <div class="card" style="width: 18rem;">
           <a href="detalhes_produto10.html"><img src="imgs/Pingente-Prata-Ametistas-e-Topazio-363_set.webp" class="card-img-top" alt="Pingente prata ametistas e topázio"></a>
           <div class="card-body">
               <h5 class="card-title">Pingente Prata Ametistas e Topázio</h5>
@@ -130,7 +190,7 @@
         </div>
  </div>
  <div class="col-md-6 col-xl-4" >
-  <div class="card" style="width: 20rem;">
+  <div class="card" style="width: 18rem;">
   <a href="detalhes-produto11.html"><img src="imgs/Pulseira-Ouro-Amarelo-Diamante-e-Topazio-m1130232_set.webp" class="card-img-top" alt="Pulseira infantil ouro amarelo"></a>
   <div class="card-body">
       <h5 class="card-title">Pulseira Infantil Ouro Amarelo Diamante e Topázio</h5>
@@ -139,7 +199,7 @@
 </div>
 </div>
 <div class='col-md-6 col-xl-4'>
-  <div class="card" style="width: 20rem;">
+  <div class="card" style="width: 18rem;">
       <a href="detalhes_produto12.html"><img src="imgs/Colar-Prata-Agata-Preta-e-Topazios-m3040055_set.webp" class="card-img-top" alt="Colar prata ágata preta"></a>
       <div class="card-body">
           <h5 class="card-title">Colar Prata Ágata Preta e Topázios</h5>
@@ -150,60 +210,86 @@
 
  </div>
 
-  <!--Filtro-->
-  <div class="filtro">
-  <h3>Filtros</h3>
-  Filtrar por: <input type="search" id="pesquisa" oninput="limpar()"> 
-  <button type="button" onclick="filtrar()">Filtrar</button>
-  <ul id="lista">
-      <li>Ana</li>
-      <li>Mariana</li>
-      <li>Banana</li>
-      <li>Celular</li>
-      <li>Smartphone</li>
-      <li>Dumbphone</li>
-      <li>Tablet</li>
-      <li>Phablet</li>
-      <li>Laptop</li>
-      <li>Top-down</li>
-  </ul>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript">
-      function limpar() {
-          $('#lista li').show();
-      }
-      function filtrar() {
-          var termo = $('#pesquisa').val().toUpperCase();
-          $('#lista li').each(function() { 
-             if($(this).html().toUpperCase().indexOf(termo) === -1) {
-                 $(this).hide();
-             }
-          });
-      }
-  </script>
+<!--Filtro
+<div class="filtro">
+ <div class="form-box">
+  <h2>Filtros</h2>
+  
+  <form action="#">
+      <div class="input-group">
+          <label for="chave"> Palavra-chave:</label>
+          <input type="text" id="chave" placeholder="Procura algo específico?" required>
+      </div>
+
+      <div class="input-group">
+          <label for="material"><br>Material:</label>
+          <input type="radio" name="mat" value="prata"> Prata <br>
+          <input type="radio" name="mat" value="ourobranco"> Ouro branco <br>
+          <input type="radio" name="mat" value="ouroamarelo"> Ouro amarelo <br>
+          <input type="radio" name="mat" value="ourorose"> Ouro rosé <br>
+      </div>
+
+      <div class="input-group">
+        <label for="tipo"><br>Tipo:</label>
+        <input type="radio" name="tipo" value="pingente"> Pingente <br>
+        <input type="radio" name="tipo" value="colar"> Colar <br>
+        <input type="radio" name="tipo" value="anel"> Anel <br>
+        <input type="radio" name="tipo" value="pulseira"> Pulseira <br>
+        <input type="radio" name="tipo" value="brinco"> Brinco <br>
+    </div>
+
+      <div class="input-group">
+          <button>Filtrar</button>
+      </div>
+  </form>
+</div>
+</div>-->
+<h2>Filtros</h2>
+<div class="filtro">
+<form action="#">
+  <div class="input chave">
+    <label for="chave"> Palavra-chave:</label>
+    <input type="text" id="chave" placeholder="Procura algo específico?">
 </div>
 
- <footer>
-  <div class="container fluid" id="footer">
-  <div class="contact">
-    <h5>Entre em contato conosco</h5>
-    <div class="row" id="footer_col">
-      <div class="col">
-        <a href=""><img src="imgs/icons8-whatsapp-24.png" alt=""></a>
-      </div>
-      <div class="col">
-        <a href=""><img src="imgs/icons8-facebook-24.png" alt=""></a>
-      </div>
-      <div class="col">
-        <a href=""><img src="imgs/icons8-gmail-24.png" alt=""></a>
-      </div>
-      <div class="col">
-        <a href=""><img src="imgs/icons8-instagram-24.png" alt=""></a>
-      </div>
+<label for="material"><br>Material:</label>
+        <div class="input">
+            <input type="radio" id="prata" name="material" value="prata">
+            <label for="ouro">Prata</label><br>
+            <input type="radio" id="ouro_branco" name="material" value="ouro_branco">
+            <label for="prata">Ouro branco</label><br>
+            <input type="radio" id="ouro_rose" name="material" value="ouro_rose">
+            <label for="ouro_rose">Ouro Rosé</label><br>
+            <input type="radio" id="ouro_amarelo" name="material" value="ouro_amarelo">
+            <label for="ouro_amarelo">Ouro amarelo</label><br>
+        </div><br>
+
+        <label for="categoria">Categoria:</label>
+        <div class="input">
+            <input type="radio" id="colar" name="categoria" value="colar">
+            <label for="colar">Colar</label><br>
+            <input type="radio" id="pingente" name="categoria" value="pingente">
+            <label for="pingente">Pingente</label><br>
+            <input type="radio" id="pulseira" name="categoria" value="pulseira">
+            <label for="pulseira">Pulseira</label><br>
+            <input type="radio" id="brinco" name="categoria" value="brinco">
+            <label for="brinco">Brinco</label><br>
+            <input type="radio" id="anel" name="categoria" value="anel">
+            <label for="anel">Anel</label>
+        </div><br>
+
+        <div class="input-group">
+          <button>Filtrar</button>
+      </div> </form>
     </div>
+       
+
+
+<!--Rodapé-->
+ <footer>
+  
   <p>Copyright &copy EMIARAH </p>
-  </div>
-  </div>
+  
 </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
   </script>
