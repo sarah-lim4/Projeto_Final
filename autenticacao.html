@@ -30,7 +30,10 @@
         height: 100vh;
         margin-bottom: 200px;
         font-family: 'Poppins', sans-serif;
-        background: linear-gradient(30deg,#f4d58c, #dbaf49, #c59b3a);
+        background-image: url(imgs/golden.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
 
@@ -130,6 +133,8 @@
         margin-top: 50px;
         color: #dcb55a;
     }
+
+
  @keyframes iniciar{
         0%{
             top:-20px;
@@ -151,10 +156,10 @@
 
             <div class="card" style="width: 18rem;">
                 <ul class="list-group list-group-flush">
-                  <a href="pagina_inicial.html" target="_blank"><li class="list-group-item">Home</li></a>
-                  <a href="Lista_itens.html" target="_blank"><li class="list-group-item">Produtos</li></a>
-                  <a href="perfil.html" target="_blank"><li class="list-group-item">Perfil</li></a>
-                  <a href="Cadastro.html" target="_blank"><li class="list-group-item">Cadastro</li></a>
+                  <a href="pagina_inicial.html"><li class="list-group-item">Home</li></a>
+                  <a href="Lista_itens.html"><li class="list-group-item">Produtos</li></a>
+                  <a href="perfil.html" ><li class="list-group-item">Perfil</li></a>
+                  <a href="Cadastro.html" ><li class="list-group-item">Cadastro</li></a>
                 </ul>
               </div>
             </div>
@@ -165,24 +170,25 @@
     <div id="form">
         <h3 class="title">Autenticação</h3>
     <main>
-        <label for="">Usuário</label>
+        <label for="usuario">Usuário</label>
         <div class="input">
             <input type="text" id="usuario" class="form-control" placeholder="Digite seu e-mail">
         </div>
 
-        <label for="">Senha</label>
+        <label for="senha">Senha</label>
         <div class="input">
             <input type="password" id="senha" class="form-control" placeholder="Digite sua senha">
         </div>
 
         <div class="input btn">
             <button class="btn form-control" id="btnLogar" onclick="">Logar</button>
-            <h2>Não possui login?<a href="Cadastro.html" target="_blank">Cadastre-se!</h2> </a>
+            <h2>Não possui login?<a href="Cadastro.html" >Cadastre-se!</h2> </a>
         </div>
     </main>
 </div>
-
 </div>
+
+
 
 </div>
 
