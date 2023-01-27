@@ -136,22 +136,22 @@
 
     <form action="">
 
-        <label for="">Nome do Produto:</label>
+        <label for="nome">Nome do Produto:</label>
         <div class="input">
             <input type="text" id="nome" name="nome" class="form-control" >
         </div><br>
 
-        <label for="">Valor:</label>
+        <label for="valor">Valor:</label>
         <div class="input">
             <input type="text" id="valor" name="valor" class="form-control" >
         </div><br>
 
-        <label for="">Descrição:</label>
+        <label for="descricao">Descrição:</label>
         <div class="input">
             <input type="textarea" id="descricao" name="descricao" class="form-control" >
         </div><br>
 
-        <label for="">Material</label>
+        <label for="material">Material</label>
         <div class="input">
             <input type="radio" id="ouro" name="material" value="ouro">
             <label for="ouro">Ouro</label><br>
@@ -163,7 +163,7 @@
             <label for="ouro_amarelo">Ouro amarelo</label><br>
         </div><br>
 
-        <label for="">Categoria</label>
+        <label for="categoria">Categoria</label>
         <div class="input">
             <input type="radio" id="colar" name="categoria" value="colar">
             <label for="colar">Colar</label><br>
@@ -177,19 +177,26 @@
             <label for="anel">Anel</label>
         </div><br>
 
-        <label for="">Tamanho da joia:</label>
+        <label for="tamanho">Tamanho da joia:</label>
         <div class="input">
             <input type="tamanho" id="tamanho" name="tamanho" class="form-control" >
         </div><br>
 
-        <label for="">Código:</label>
+        <label for="codigo">Código:</label>
         <div class="input">
             <input type="codigo" id="codigo" name="codigo" class="form-control" >
+        </div><br>
+
+        <label for="">Imagem:</label>
+        <div class="input">
+        <input type="file" name="imagem" id="imagem">
         </div><br>
 
         <div class="input btn">
             <button class="btn form-control">Cadastrar Produto</button>
         </div>
+
+
     </form>
 
 </div>
