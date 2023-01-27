@@ -6,29 +6,20 @@
     <title>PULSEIRA CORAÇÃO </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="detalhes_produtos.css">
-    <link rel="stylesheet" href="emiarah.css">
+    <link rel="stylesheet" href="navbar.css">
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
         body{
-          background-color: #d5d5d5;
+          background-color: #ffffff;
           font-family: 'Poppins', sans-serif;
         }
         .main{
-        
-          background-color: white;
+   
           padding-top: 10px;
           
         }
   
-        .imagem_produto{
-            padding-top: 30px;
-            width: 390px;
-            height: 370px;
-            margin-left: 130px;
-            margin-right: 50px;
-            float: left;
-
-        }
+        
 
         .footer{
       text-align: center;
@@ -41,33 +32,39 @@
 </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="imgs/Logo_Emiarah-removebg-preview.png" alt="Logo" class="d-inline-block align-text-top logo">
-        </a>
-        <h1 class="pbr">EMIARAH
-          
-          <p >BRASIL | 1988</p>
-        </h1>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                
-                <a class="nav-link" href="#"> <img src="imgs/icons8-usuário-24.png" alt="Logo" class="d-inline-block align-text-top  icon"></a>
-                <a class="nav-link" href="#"> <img src="imgs/icons8-shopping-bags-24.png" alt="Logo" class="d-inline-block align-text-top  icon"></a>
-                <a class="nav-link" href="pagina_inicial.html"> <img src="imgs/home-page.png" alt="Logo" class="d-inline-block align-text-top  icon"></a>
-              </div>
-            </div>
-          </div>
-        </nav>
+        <a class="navbar-brand" href="#"><img class="logo"src="imgs/Logo_Emiarah-removebg-preview.png" alt="Logo Emiarah"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+           <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="pagina_inicial.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Lista_itens.html" target="_blank">Nossos Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Cadastro.html" target="_blank" >Cadastre-se</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="autenticacao.html" target="_blank" >Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="autenticacao.html" target="_blank" >Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
    
     <div class="container-fluid main">
-        <div class="row linha1" >
+        <div class="row " >
+          <div class="col-sm-4">
           <img class="img-fluid imagem_produto" src="imgs/Pulseira-Coracao.webp" alt="Imagem colar" >
-
+          </div>
 
           <div class="col-sm-4">
             <h3 class="nome_produto">PULSEIRA CORAÇÃO </h3>
@@ -102,15 +99,15 @@
         <h3 class="outros_produtos">OUTROS PRODUTOS</h3>
         <br>
         <div class="container text-center maisprodutos">
-            <div class="row row-cols-4 img_produtos">
-              <div class="col "> <a href="detalhes_produto.html" target="_blank"><img class="img-fluid imagem_1" src="imgs/Pingente-Prata.webp" alt="Imagem pingente prata" ></a></div>
-              <div class="col"> <a href="detalhes_produto2.html" target="_blank"><img class="img-fluid imagem_1" src="imgs/colar_perolas.webp" alt="Imagem colar pérolas" ></a></div>
-              <div class="col"> <a href="detalhes_produto3.html" target="_blank"><img class="img-fluid imagem_1" src="imgs/Anel_coracao.webp" alt="Imagem anel em formto de coração" ></a></div>
-              <div class="col"> <a href="detalhes_produtos4.html" target="_blank"><img class="img-fluid imagem_1" src="imgs/Anel-Ouro-Amarelo-Diamantes-e-Esmeralda.webp" alt="Imagem anel de ouro e esmeralda" ></a></div>
-              <div class="col"> <a href="detalhes_produto5.html" target="_blank"><img class="img-fluid imagem_1" src="imgs/Anel-Ouro-Rose-Diamantes.webp" alt="Imagem anel de ouro rosé e diamantes" ></a></div>
-              <div class="col "> <a href="detalhes_produto6.html" target="_blank"><img class="img-fluid imagem_1" src="imgs/pulseira_prata_perola.webp" alt="Imagem pulseira de prata e pérola" ></a></div>
-              <div class="col"> <a href="detalhes_produto8.html" target="_blank"><img class="img-fluid imagem_1" src="imgs/brinco_ouro.webp" alt="Imagem brinco de ouro" ></a></div>
-              <div class="col"> <a href="detalhes_produtos9.html" target="_blank"><img class="img-fluid imagem_1" src="imgs/brinco_ouro_perolas.webp" alt="Imagem brinco de ouro e pérolas" ></a></div>
+            <div class="row row-cols-1 img_produtos">
+              <div class="col-md-6 col-xl-3 "> <a href="detalhes_produto.html" target="_blank"><img class="img-fluid imagem_1" src="imgs/Pingente-Prata.webp" alt="Imagem pingente prata" ></a></div>
+              <div class="col-md-6 col-xl-3"> <a href="detalhes_produto2.html" target="_blank"><img class="img-fluid imagem_1" src="imgs/colar_perolas.webp" alt="Imagem colar pérolas" ></a></div>
+              <div class="col-md-6 col-xl-3"> <a href="detalhes_produto3.html" target="_blank"><img class="img-fluid imagem_1" src="imgs/Anel_coracao.webp" alt="Imagem anel em formto de coração" ></a></div>
+              <div class="col-md-6 col-xl-3"> <a href="detalhes_produtos4.html" target="_blank"><img class="img-fluid imagem_1" src="imgs/Anel-Ouro-Amarelo-Diamantes-e-Esmeralda.webp" alt="Imagem anel de ouro e esmeralda" ></a></div>
+              <div class="col-md-6 col-xl-3"> <a href="detalhes_produto5.html" target="_blank"><img class="img-fluid imagem_1" src="imgs/Anel-Ouro-Rose-Diamantes.webp" alt="Imagem anel de ouro rosé e diamantes" ></a></div>
+              <div class="col-md-6 col-xl-3 "> <a href="detalhes_produto6.html" target="_blank"><img class="img-fluid imagem_1" src="imgs/pulseira_prata_perola.webp" alt="Imagem pulseira de prata e pérola" ></a></div>
+              <div class="col-md-6 col-xl-3"> <a href="detalhes_produto8.html" target="_blank"><img class="img-fluid imagem_1" src="imgs/brinco_ouro.webp" alt="Imagem brinco de ouro" ></a></div>
+              <div class="col-md-6 col-xl-3"> <a href="detalhes_produtos9.html" target="_blank"><img class="img-fluid imagem_1" src="imgs/brinco_ouro_perolas.webp" alt="Imagem brinco de ouro e pérolas" ></a></div>
               </div>
               
             </div>
