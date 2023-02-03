@@ -21,6 +21,12 @@
           background-position: center;
           background-size: cover;
       }  
+
+      .nav-item{
+        text-transform: uppercase;
+        padding: 15px;
+
+      }
     
     .carrossel{
      width: 70%;
@@ -40,12 +46,19 @@
    color: black;
    }
 
+   h4{
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+   }
   
      /*Cartões*/
      .card{
      align-items: center;
-     margin-left: 20px;
-     margin-right: 60px;
+     margin-left: 50px;
      margin-top: 30px;
      margin-bottom: 20px;
      padding-left: 10px;
@@ -95,16 +108,19 @@
               <a class="nav-link active" aria-current="page" href="pagina_inicial.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Lista_itens.html" >Nossos Produtos</a>
+              <a class="nav-link active" href="Lista_itens.html" >Nossos Produtos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Cadastro.html" >Cadastre-se</a>
+              <a class="nav-link active" href="Cadastro.html" >Cadastre-se</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="autenticacao.html" >Login</a>
+              <a class="nav-link active" href="autenticacao.html" >Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href=https://www.google.com.br/ >Logout</a>
+              <a class="nav-link active" href=https://www.google.com.br/ >Logout</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"><img src="imgs/sacola-de-compras-quadrada-com-alca.png" alt="sacola"></a>
             </li>
           </ul>
         </div>
@@ -116,6 +132,7 @@
 
    <div class="container">
 <!--carrossel-->
+<h4>Produtos Mais Vendidos</h4>
 
 <div id="carouselExampleIndicators" class="carousel slide carrossel">
 <div class="carousel-indicators">
@@ -123,20 +140,36 @@
 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 4"></button>
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 4"></button>
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 4"></button>
+<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 4"></button>
 </div>
 <div class="carousel-inner">
 <div class="carousel-item active">
 <img src="imgs/imagem_c1.jpg" class="d-block w-100" alt="imagem_carrosel">
 </div>
 <div class="carousel-item">
+  <a href="detalhes_produto2.html"><img src="imgs/Colar de Pérolas.png" class="d-block w-100" alt="imagem_carrosel"></a>
+  </div>
+<div class="carousel-item">
 <img src="imgs/imagem_c2.jpg" class="d-block w-100" alt="imagem_carrosel">
 </div>
+<div class="carousel-item">
+  <a href="detalhes_produto5.html"><img src="imgs/Anel de diamente.png" class="d-block w-100" alt="imagem_carrosel"></a>
+  </div>
 <div class="carousel-item">
 <img src="imgs/imagem_c3.jpg" class="d-block w-100" alt="imagem_carrosel">
 </div>
 <div class="carousel-item">
+  <a href="detalhes_produto7.html"><img src="imgs/Pulseira Coração.png" class="d-block w-100" alt="imagem_carrosel"></a>
+  </div>
+<div class="carousel-item">
 <img src="imgs/imagem_c4.jpg" class="d-block w-100" alt="imagem_carrosel">
 </div>
+<div class="carousel-item">
+  <a href="detalhes_produto8.html"><img src="imgs/Brinco ouro.png" class="d-block w-100" alt="imagem_carrosel"></a>
+  </div>
 </div>
 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -174,7 +207,7 @@
 <h5 class="card-title">Ouro ético</h5>
 <a href="https://www.waufen.com.br/blog/joias-sustentaveis-voce-sabe-o-que-e-esse-conceito/" target="_blank">
 <p class="card-text">Nossa matéria-prima provem de exploração justa. O ouro ético é vindo da mineração responsável, que não traz males
-nem aos trabalhadores, nem à comunidade, nem ao meio ambiente.</p>
+nem aos trabalhadores envolvidos na extração, nem à comunidade, nem ao meio ambiente.</p>
 </a>
 </div>
 </div>
@@ -201,7 +234,7 @@ nem aos trabalhadores, nem à comunidade, nem ao meio ambiente.</p>
 <h5 class="card-title">Joias sustentáveis</h5>
 <a href="https://umsoplaneta.globo.com/financas/negocios/noticia/2022/07/04/brilho-consciente-praticas-sustentaveis-em-joalheria-minimizam-impactos-da-cadeia-de-metais-preciosos.ghtml" target="_blank" >
   <p class="card-text">A Emiarah está sempre preocupada com a procedência de seus produtos. Oferencendo para a sociedade
-  peças finas, elegantes e com sua marca registrada: o selo de sustentabilidade.</p>
+  peças finas, elegantes e com sua marca registrada: o selo de sustentabilidade própria.</p>
 </a>
 </div>
 </div>
